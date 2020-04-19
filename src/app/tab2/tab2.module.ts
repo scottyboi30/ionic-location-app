@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab2Page } from './tab2.page';
+import { AgmCoreModule } from '@agm/core';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 @NgModule({
@@ -11,6 +12,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
     IonicModule,
     CommonModule,
     FormsModule,
+    AgmCoreModule,
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab2Page }])
   ],
